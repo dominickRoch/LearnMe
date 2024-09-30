@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.space-grotesk-<uniquifier> {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    padding-inline: 16px;
+    display: flex;
+    text-align: center;
+}
+
+.nav{
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.nav-list{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-list a{
+    font-size: 15px;
+    padding-block: 16px;
+    color: black;
+}
+
+.linha-nav{
+    background-color: #F2F2F2;
+    height: 1.5px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+ Conteudo do Site*/
+
+ body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+}
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    background-color: #fff;
+}
+.hero-text {
+    max-width: 50%;
+}
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+}
+.hero-text button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-image img {
+    max-width: 100%;
+}
+.features {
+    text-align: center;
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+}
+.features h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+.features a {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+.features-grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.features-grid div {
+    width: 150px;
+    height: 150px;
+    background-color: #eaeaea;
+    margin: 10px;
+}
+.values {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    background-color: #fff;
+}
+.values-text {
+    max-width: 50%;
+}
+.values-text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+.values-text p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
+.values-image img {
+    max-width: 100%;
+}
+.info-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px;
+    background-color: #f9f9f9;
+}
+.info-card {
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.info-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+.info-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
